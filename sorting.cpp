@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #include "sorting.h"
 #include <cstdlib>
 #include <iostream>
@@ -41,3 +42,5 @@ void quickSort(int arr[], int low, int high)
     arr[low] = arr[j];
     arr[j] = temp;
 }
+=======
+>>>>>>> 9aaf7f7f963c28330550fb2761aace370774cb41
