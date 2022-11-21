@@ -17,10 +17,13 @@ int main(){
         array.push_back(rand()%10); 
 
     }
-    
+    time_t before ; 
+    time_t after; 
+    time(&before); 
     insertionSort(array); 
-    printout(array,n); 
+    time(&after); 
 
+    cout<<difftime(after, before)<<endl; 
    
 
 
